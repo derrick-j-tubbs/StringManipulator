@@ -1,0 +1,11 @@
+X:\Projects\stringmanipulator\obj\Debug\netcoreapp2.1\stringmanipulator.csprojAssemblyReference.cache
+X:\Projects\stringmanipulator\obj\Debug\netcoreapp2.1\stringmanipulator.csproj.CoreCompileInputs.cache
+X:\Projects\stringmanipulator\obj\Debug\netcoreapp2.1\stringmanipulator.AssemblyInfoInputs.cache
+X:\Projects\stringmanipulator\obj\Debug\netcoreapp2.1\stringmanipulator.AssemblyInfo.cs
+X:\Projects\stringmanipulator\bin\Debug\netcoreapp2.1\stringmanipulator.deps.json
+X:\Projects\stringmanipulator\bin\Debug\netcoreapp2.1\stringmanipulator.runtimeconfig.json
+X:\Projects\stringmanipulator\bin\Debug\netcoreapp2.1\stringmanipulator.runtimeconfig.dev.json
+X:\Projects\stringmanipulator\bin\Debug\netcoreapp2.1\stringmanipulator.dll
+X:\Projects\stringmanipulator\bin\Debug\netcoreapp2.1\stringmanipulator.pdb
+X:\Projects\stringmanipulator\obj\Debug\netcoreapp2.1\stringmanipulator.dll
+X:\Projects\stringmanipulator\obj\Debug\netcoreapp2.1\stringmanipulator.pdb

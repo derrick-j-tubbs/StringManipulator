@@ -1,0 +1,117 @@
+I made a few assumptions with this assignment. 
+
+✔ Create a string that does none of the requested functions 
+    input    
+    - "I am a bad string"
+    epxected output
+    - "I am a bad string"
+✔ Create a string that does each individual function 
+    ✔ multpile of 4 length 
+        input
+        - "This string is reversed."
+        expected output
+        - ".desrever si gnirts sihT"
+    ✔ multiple of 5 length 
+        input
+        - "String is cut off at 5..."
+        expected output
+        - "STring"
+    ✔ string ending in a - 
+        input
+        - "This string needs -"
+        - "an additional string."
+        expected output
+        - "This string needs an additional string."
+    ✔ string with 3 caps in first 5 characters 
+        input
+        - "uPpERcase"
+        expected output
+        - "UPPERCASE"
+✔ create a string that does all of the requested functions 
+    input
+    - "This string will subjected to reverse, concat, and trun-CaTE"
+    - " See?"
+    expected output
+    - "ETAC SEE?"
+✔ create a string that does the string ending in - funciton, without having a string after it 
+    - "This string shouldn't throw an error-"
+✔ create a string for each combination of requests
+    ✔ ab
+        input
+        - "reversed and trimmed"
+        expected output
+        - "demmi"    
+    ✔ ac
+        input
+        - "ReVErsed and made capped"
+        expected output
+        - "DEPPAC EDAM DNA DESREVER"
+    ✔ ad
+        input
+        - "- dna tacnoc"
+        - "reverse"
+        expected output
+        - "concat and reverse"
+    ✔ abc
+        input
+        - "ThIS string will be reverse, concatted, and capped hopefully"
+        expected output
+        - "YULLF"
+    ✔ abd
+        input
+        - "this string will be.. reversed, truncated, and concaten-ated"
+        - "was it?"
+        expected output
+        - "detawas it?"
+    ✔ bc
+        input
+        - "ShOrTupper"
+        expected output
+        - "SHORT"
+    ✔ bd
+        input
+        - "Conc-atenate me"
+        - " I did"
+        expected output
+        - "Conc I did"
+    ✔ bcd
+        input
+        - "CoNC-atenate me"
+        - " I did"
+        expected output
+        - "CONC I DID"
+    ✔ cd
+        input
+        - "ThIS string should be-"
+        - "all uppercase"
+        expected output
+        - THIS SHRING SHOULD BE ALL UPPERCASE"
+
+✔ create an empty string to protect against this edge case.
+
+✔ create a concatenate calling string with no string after it to protect against this edge case
+ - This string shouldn't throw an error
+
+✔ Function to reverse a string 
+    - use a stack, push the whole char array of the string, pop them back into the char array.
+
+✔ Truncate a string to 5 characters 
+    - substring(0, 5);
+
+✔ Concat a string onto another if the last character is a '-' 
+    - if (string[string.Length - 1)] == '-')
+        (string + nextString)
+
+✔ Write logic for when to use the previous 3 functions 
+    - if (string.Length % 4 == 0) {
+        reverse;
+    }
+    - if (string.Length % 5 == 0) {
+        truncate;
+    }
+    - if (string[string.length - 1] == '-') {
+        concat strings
+    }
+✔ calculate total number of input characters
+✔ calculate total number of output characters
+✔ calculate median number of string lengths
